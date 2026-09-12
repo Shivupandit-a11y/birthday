@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>For My Little Laddoo 🐱💗</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="magical-background">
+        <div class="stars"></div>
+        <div class="floating-hearts"></div>
+    </div>
+
+    <!-- PAGE 1: MAGICAL WELCOME -->
+    <section id="welcome-screen" class="active">
+        <div class="glass-card">
+            <!-- CSS Kitten Illustration -->
+            <div class="kitten-container">
+                <div class="kitten">
+                    <div class="ears"></div>
+                    <div class="face">
+                        <div class="eyes"></div>
+                        <div class="blush"></div>
+                        <div class="nose"></div>
+                    </div>
+                    <div class="paws"></div>
+                    <div class="gift-box">🎁</div>
+                </div>
+            </div>
+
+            <div class="text-content">
+                <h2 id="typing-text"></h2>
+            </div>
+
+            <div class="password-area" id="password-area" style="display: none;">
+                <p class="instruction">Only Laddoo can unlock this little surprise 🔐🐱</p>
+                <div class="input-group">
+                    <input type="password" id="password-input" placeholder="Enter Magic Word...">
+                    <button onclick="checkPassword()" id="unlock-btn">Unlock My Surprise ✨</button>
+                </div>
+                <p id="error-msg" class="error-msg"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 2: MAIN BIRTHDAY HUB (Hidden initially) -->
+    <section id="birthday-hub" style="display: none;">
+        <div class="celebration-content">
+            <h1 class="birthday-title">Happy Birthday <br><span>Laddoo ❣️💫</span></h1>
+            <div class="bhai-message">
+                <p>Happy 15th Birthday to the world's most annoying yet cutest little sister! 🎂✨</p>
+            </div>
+            <!-- More content will be added here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
